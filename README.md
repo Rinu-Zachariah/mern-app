@@ -1,2 +1,1 @@
-# mern-app
-Basic mern app template
+# MERN App with Material UI

@@ -1,0 +1,13 @@
+.scrabble {
+  margin-top: 20px;
+}
+.scrabble__button {
+  margin: 10px !important;
+}
+
+/* using sass, the style classes would have been 
+  .scrabble
+    margin-top: 20px
+    &__button
+      margin: 10px
+*/

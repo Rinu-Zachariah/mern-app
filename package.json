@@ -1,0 +1,27 @@
+{
+  "name": "mern-app-with-material-ui",
+  "version": "1.0.0",
+  "description": "A MERN App using material UI",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern",
+    "aws",
+    "ec2",
+    "mongodb",
+    "react",
+    "express"
+  ],
+  "author": "Rinu Zachariah",
+  "license": "ISC"
+}
