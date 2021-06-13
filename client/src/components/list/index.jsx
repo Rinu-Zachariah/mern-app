@@ -42,7 +42,7 @@ const List = props => {
           .then(response => {
             definitions.push({
               key: dataPoint,
-              definition: response.data[0].meanings[0].definitions[0].definition
+              definition: response.data[0].meanings[0]?.definitions[0]?.definition
             });
             setDefinition(definitions);
           })
